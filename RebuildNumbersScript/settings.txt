@@ -1,0 +1,21 @@
+Year (yyyy):
+2022
+Sleep Time (seconds):
+6
+Take screenshots on each day to confirm their entry (True / False):
+True
+
+
+Note: Do not move anything in this text file, 
+simply edit individual numbers right where they are
+
+If the web page changes dimensions for whatever reason,
+or you try running the script on a different computer or monitor setup,
+and the script is not clicking in the correct locations,
+the script will need to be updated. 
+
+// This is the part of the script that determines X and Y presses
+calendarX = int((    !!  525.0  !!         / 1366.0) * screenWidth) # X Coordinate on the screen
+calendarY = int((    !!  260.0  !!        / 768.0) * screenHeight) # Y Coordinate on the screen
+
+Simply change the first integer to change the location that the script clicks
